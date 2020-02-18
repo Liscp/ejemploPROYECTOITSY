@@ -8,7 +8,7 @@ export default class Inicio extends Component{
 
     render(){
       return(
-        <ImageBackground source={require('../img/fondo.jpg')} style={styles.container}>
+        <ImageBackground source={require('../img/fondo2.jpg')} style={styles.container}>
           <View style={styles.container}>
             <Image style={styles.logo} source={require('../assets/arbol.png')}/>
             <View style={styles.buttonWrapper}>
@@ -43,8 +43,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 80,
-    height: 70
+    width: 200,
+    height: 200
   },
   button: {
     alignItems: "center",
